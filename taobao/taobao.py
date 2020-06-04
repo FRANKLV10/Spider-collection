@@ -2,6 +2,7 @@ import requests
 import os
 import re
 import json
+from mysql import insert
 from lxml import etree
 res = requests.Session()
 
@@ -14,7 +15,7 @@ class taobao_spider:
 
         self.login_url = 'https://login.taobao.com/newlogin/login.do?appName=taobao&fromSite=0'  #登录页面
 
-        self.i_taobao_url = 'http://i.taobao.com/my_taobao.htm'
+        self.i_taobao_url = 'https://s.taobao.com/search?q='
 
         self.headers = {
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
@@ -116,9 +117,19 @@ class taobao_spider:
             item_dict = {}
 
             items_data = re.findall(r'{"i2iTags".*?,"risk":""}',req.text)
+
             for data in items_data:
-                print(json.loads(data))
-                break
+                data = json.loads(data)  #序列化data 消除=格式错误
+                detail_url = data['detail_url']
+                title = data['raw_title']
+                view_price = data['view_price']
+                nick = data['nick']
+                comment_count =data['comment_count']
+                values = "'{}'," * 4 + "'{}'"
+                values = values.format(title,nick,detail_url,view_price,comment_count)
+                sql = 'insert into tb_items (title,nick,detail_url,view_price,comment_count) values ({})'.format(values)
+                insert(sql)
+
 
 
 
