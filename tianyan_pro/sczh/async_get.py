@@ -169,10 +169,4 @@ def search_all(name):
 
 
 if __name__ == '__main__':
-    # search_all("187913274")
-    # search_all("2310289621")
-    # print(get_detail("2310289621"))
-    search_all("成都三泰控股集团股份有限公司")
-
-
-    # print(get_id("成都三泰控股集团股份有限公司"))
+    search_all("阿里巴巴")
