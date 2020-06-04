@@ -2,7 +2,7 @@ import pymysql
 def insert(sql):
     conn = pymysql.connect(host='localhost',
                            user='root',
-                           password='santbbd',
+                           password='123456',
                            db='test',
                            charset='utf8')
     cursor = conn.cursor()
