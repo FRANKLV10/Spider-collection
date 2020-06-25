@@ -135,7 +135,7 @@ class taobao_spider:
 
 
 if __name__ == '__main__':
-    from_data = {'loginId': '449681077@qq.com',
+    from_data = {'loginId': ,#自己的账号
                  'password2': '1e6a42512131b27fe6ca16dbbc5b50727b98d9e22d75c8acd3b7230eb0668768d8fdb7dfcf9d3d0f5cc720846f1a96d0b0a488aa98ee446d51fd7476151117128e27e136eb6b2ec240cea7925c475a55f1f60fa4832455181191beaba2aeae2853d1e1aedf9e43abbd01d911fd9872168b9e42c1c16f7b3742b1fe4cc35ec5a7',
                  'keepLogin': 'false',
                  'ua': '124#4IDYlx7NxG0xA5iXTcjCb2FzyW4pSPsl5FZqtPH4TZFQPAj7Nuje7Lt0iogpw/1cXl7ySa1feLDUALV3ftW2+sL7nFumrswEJqtjsoETSd1Vt0pRxUtsvHVRqaZi+jICDKmYADxLPDMB46StecoLzXwyYwRA5JXpxEqv6Abtq9+Rv91aIxaKPLbwwWT9cfY+8QMDdtxI/kFfGRmEJCAndPgd6wLxskg577eK9VwPeWkStCzdzHOY+YRkM1ptYyR6lZ8oKejVX2LJSOFhNGnCATyuWt0N7exkWgw1/7jbk+7hT2dxvdFb1yTB023Vd253ggOlW2EvmlrwpostFFpqFBuhY5U7UyEeO0XHInYLbmYIm4WZIqXp6TF4BMCVtFY2g7OHJCYplmi19jrUJ8Lpg91d1ZIZbU7ng7OBInYLlwYnmfWeIqsXgTzo1nIelUX2g7vtIn/plw/nm4+ZI8LLgTGl7Zm9yq/2DbOBIZzjw5EGvfCzI8XbcPzo1n/0AeUv5j5cDZ3BYZ4GO/sfQq3mIiVehewHKvZ9Ceb8fES0mSIRBydkCQkGKpOiR4Ykb8eE3rmUZ4k7b8WUSi92vOwNzp7vxo+GrOzBgDktZwcY6D59fFzpY3a4zDixSzpgUgDPGz2j/+R/tS1FNLxysdg/g2pG0LNVSv8MawxK7FkPvIa78xnYBQPoJJgUK3KlI0ET4WST2qR4B7CQ23Dedu5btP06ECmWRPFtUFtiaNQBBryu9bO5HmQkbdXoy9AX5ymGgQR0iBEMyEpf36f/eeDj2PzY8bwRtsU0J1LMxc+MOxGgam7J1pJtyeLOJ5C+IIm0eDauH/fGXHu0HYe/1x3JGcgkJ+C9v0RKu337hurWNu4CUxN9RWUetL7EnzlO93Gjn/9K6mDqhKZ5JmvCwIltoq+1W6Qo4gaaNL70/XP+5IcpEVbwwaJFDz41UcwtDyE17bwRX+kq8QX7GQfrZbP5vq5yPLxmRz0EYAqFCgcyUN1HQdDVSASKrfCaxBY27n1E+YGmAZBHDgU/ojz323WNJrpNXzRPdvVTunwHAX2LR5XiyVNVlEnKsLfYVQz9vYs0duEdpMzWt+Uc8of8wk1kvn7HPzTniVkacSBmOs0OnAvLBITQilZG9zIrhtuvqLqmXb9F2wNdv65ocxCqAHyH9pTQ/HX7pdda2jYJFQbIgitN3Izz1AKainjTd8SLtJXErJAuArHQbdgUgViXNvjIgP/uTBq+cEZvyMkGkgmz',
