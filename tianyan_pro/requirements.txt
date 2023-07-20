@@ -1,4 +1,4 @@
-aiohttp==3.7.4
+aiohttp==3.8.5
 requests==2.22.0
 PyMySQL==0.9.3
 beautifulsoup4==4.8.0
